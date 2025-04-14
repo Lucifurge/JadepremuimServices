@@ -11,7 +11,15 @@ body {
   overflow: hidden;
 }
 
+.hero-section .carousel {
+  height: 100%;
+}
+
 .hero-section .carousel-inner {
+  height: 100%;
+}
+
+.hero-section .carousel-item {
   height: 100%;
 }
 
@@ -33,6 +41,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2rem;
+  z-index: 2;
 }
 
 /* Yellow Light Olive Colors */
