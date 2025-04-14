@@ -35,14 +35,18 @@ body {
   text-align: center;
 }
 
-/* Olive and Yellow Colors */
+/* Yellow Light Olive Colors */
 .btn-olive {
-  background-color: #808000; /* Yellow Olive */
+  background-color: #9b9f2f; /* Light Yellow Olive */
   color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .btn-olive:hover {
-  background-color: #6a6a00; /* Darker Yellow Olive */
+  background-color: #7d8324; /* Slightly darker Yellow Olive */
   color: #fff;
 }
 
@@ -67,48 +71,28 @@ body {
   border-radius: 10px;
 }
 
+/* Footer */
 footer {
-  background-color: #808000; /* Yellow Olive */
+  background-color: #9b9f2f; /* Light Yellow Olive */
   color: white;
 }
 
-.navbar {
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
+/* Modal and Button Styles */
+.btn-outline-olive {
+  border-color: #9b9f2f;
+  color: #9b9f2f;
 }
 
-.navbar-brand {
-  font-size: 1.8rem;
-  color: #fff !important;
-}
-
-footer {
-  background-color: #808000; /* Yellow Olive */
+.btn-outline-olive:hover {
+  background-color: #9b9f2f;
   color: white;
 }
 
-#hero {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x700?text=Hero+Image');
-  background-size: cover;
-  background-position: center;
-  height: 500px;
+footer .btn-outline-olive {
+  border-color: #9b9f2f;
 }
 
-.carousel-inner img {
-  max-height: 300px;
-}
-
-.card {
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.glass-nav {
-  background: rgba(0, 0, 0, 0.2) !important;
-}
-
-.carousel-control-prev-icon, 
-.carousel-control-next-icon {
-  background-color: #808000; /* Yellow Olive */
+footer .btn-outline-olive:hover {
+  background-color: #7d8324;
+  color: white;
 }
