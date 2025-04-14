@@ -12,9 +12,9 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Glass Navbar */
+/* Navbar */
 .glass-nav {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(200, 200, 200, 0.2);
   transition: all 0.3s ease-in-out;
@@ -30,10 +30,7 @@ body {
   text-decoration: underline;
 }
 
-/* Colors */
-.bg-light-olive {
-  background-color: var(--olive) !important;
-}
+/* Buttons */
 .btn-olive {
   background-color: var(--olive);
   color: #fff;
@@ -60,4 +57,10 @@ body {
 /* Carousel */
 .carousel-item img {
   max-height: 300px;
+}
+
+/* Footer */
+.bg-light-olive {
+  background-color: var(--olive);
+  color: white;
 }
