@@ -35,18 +35,19 @@ body {
   text-align: center;
 }
 
+/* Olive and Yellow Colors */
 .btn-olive {
-  background-color: #4a7c48;
+  background-color: #808000; /* Yellow Olive */
   color: #fff;
 }
 
 .btn-olive:hover {
-  background-color: #3b6335;
+  background-color: #6a6a00; /* Darker Yellow Olive */
   color: #fff;
 }
 
 .bg-light-olive {
-  background-color: #a9cfa1;
+  background-color: #b5b833; /* Light Yellow Olive */
 }
 
 .glass-nav {
@@ -67,6 +68,47 @@ body {
 }
 
 footer {
-  background-color: #4a7c48;
+  background-color: #808000; /* Yellow Olive */
   color: white;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #fff !important;
+}
+
+footer {
+  background-color: #808000; /* Yellow Olive */
+  color: white;
+}
+
+#hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x700?text=Hero+Image');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.carousel-inner img {
+  max-height: 300px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.glass-nav {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  background-color: #808000; /* Yellow Olive */
 }
